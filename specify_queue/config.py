@@ -6,11 +6,6 @@
 :date 2018/4/17 
 
 """
-# CELERY_ROUTES = {
-#     'main_celery.task_worker_1': {'queue': 'task_worker_1'},
-#     'main_celery.task_worker_2': {'queue': 'task_worker_2'},
-# }
-
 CELERY_ROUTES = {
     'task_celery.task_worker_1': {'queue': 'task_worker_1'},
     'task_celery.task_worker_2': {'queue': 'task_worker_2'},
@@ -20,11 +15,3 @@ CELERY_ROUTES = {
 CELERY_IMPORTS = (
     'task_celery',
 )
-
-
-# CELERYBEAT_SCHEDULE = {
-#     'task_worker_1': {
-#         'task': 'task_celery.task_worker_1',
-#
-#     }
-# }

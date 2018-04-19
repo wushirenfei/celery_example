@@ -15,13 +15,12 @@ def on_message(body):
 
 r = rabbit_task.delay('Rookie', 5)
 s = rabbit_task.delay('TheShy', 2)
+j = rabbit_task.delay('JLK', 3)
 
-print(r)
-print(s)
 
-# print('r ==== ', r.get(on_message=on_message))
 print('r ==== ', r.get())
 print('s ==== ', s.get())
+print('j ==== ', j.get())
 
 
 

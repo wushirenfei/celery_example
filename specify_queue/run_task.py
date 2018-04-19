@@ -1,8 +1,8 @@
 # -*- coding=utf-8 -*-
-# Copyright 2018 QingNiu
+# Copyright 2018
 
 """
-:author 马超（ma.chao@qingniu.co）
+:author Alex Ma
 :date 2018/4/17 
 
 """
